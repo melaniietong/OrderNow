@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1, .h1 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+h2, .h2 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h3, .h3 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+h4, .h4 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px; 
+}
+
+h5, .h5 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h6, .h6 {
+    font-family: 'Fredoka', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.subtitle-1 {
+    font-family: 'Avenir', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.subtitle-2 {
+    font-family: 'Avenir', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body, .body {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.label-1 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.label-2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.list-1 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.list-2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
