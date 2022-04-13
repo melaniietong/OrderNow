@@ -1,0 +1,15 @@
+{
+    "deliveryfee": 0.25,
+    "customfees": {
+        "tax": {
+            "name": "Tax",
+            "type": "percentage",
+            "fee": 7
+        },
+        "plastic": {
+            "name": "Plastic Bag Fee",
+            "type": "flat",
+            "fee": 0.25
+        }
+    }
+}

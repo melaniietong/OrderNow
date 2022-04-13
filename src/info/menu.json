@@ -1,0 +1,284 @@
+{
+    "burgers": {
+        "name": "Burger Meals",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "menu": {
+            "burgers-1": {
+                "name": "Big Burger",
+                "price": 10.79,
+                "desc": "Duis a auctor nisi, at consequat ante.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 1,
+                        "choices": ["Medium Fries", "Large Fries"],
+                        "prices": [0, 0.5],
+                        "isrequired": true
+                    },
+                    "option-2": {
+                        "name": "Drink",
+                        "type": 1,
+                        "choices": ["Coke", "Sprite", "NESTEA Iced Tea", "Fruitopia Orange"],
+                        "prices": [0, 0, 0, 0],
+                        "isrequired": true
+                    },
+                    "option-3": {
+                        "name": "Burger comes with",
+                        "type": 3,
+                        "choices": ["Burger Sauce", "Cheese", "Onions", "Pickles", "Lettuce", "Beef Patty"],
+                        "prices": [0, 0.59, 0, 0, 0, 1],
+                        "initial": [1, 1, 1, 1, 1, 2],
+                        "isrequired": true
+                    }
+                }
+            },
+            "burgers-2": {
+                "name": "Burger with Cheese",
+                "price": 13.19,
+                "desc": "Aenean quam. In scelerisque sem at dolor. Maecenas mattis.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 1,
+                        "choices": ["Medium Fries", "Large Fries"],
+                        "prices": [0, 0.5],
+                        "isrequired": true
+                    },
+                    "option-2": {
+                        "name": "Drink",
+                        "type": 1,
+                        "choices": ["Coke", "Sprite", "NESTEA Iced Tea", "Fruitopia Orange"],
+                        "prices": [0, 0, 0, 0],
+                        "isrequired": false
+                    },
+                    "option-3": {
+                        "name": "Burger comes with",
+                        "type": 3,
+                        "choices": ["Cheese", "Mustard", "Ketchup", "Onions", "Pickles", "Beef Patty"],
+                        "prices": [0.59, 0, 0, 0, 0, 0],
+                        "initial": [2, 1, 1, 1, 1, 1],
+                        "isrequired": false
+                    }
+                }
+            }
+        }
+    },
+    "chicken": {
+        "name": "Chicken Meals",
+        "desc": "Vivamus in justo nisl. Praesent viverra augue nulla, id posuere velit iaculis sed.",
+        "menu": {
+            "chicken-1": {
+                "name": "Chicken Burger",
+                "price": 11.89,
+                "desc": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 1,
+                        "choices": ["Medium Fries", "Large Fries"],
+                        "prices": [0, 0.5],
+                        "isrequired": true
+                    },
+                    "option-2": {
+                        "name": "Drink",
+                        "type": 1,
+                        "choices": ["Coke", "Sprite", "NESTEA Iced Tea", "Fruitopia Orange"],
+                        "prices": [0, 0, 0, 0],
+                        "isrequired": true
+                    },
+                    "option-3": {
+                        "name": "Burger comes with",
+                        "type": 3,
+                        "choices": ["Mayo", "Lettuce", "Chicken Patty"],
+                        "prices": [0.40, 0, 2.99],
+                        "initial": [1, 1, 1],
+                        "isrequired": false
+                    }
+                }
+            },
+            "chicken-2": {
+                "name": "Chicken Wrap",
+                "price": 13.09,
+                "desc": "Integer euismod lacus luctus magna.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 1,
+                        "choices": ["Medium Fries", "Large Fries"],
+                        "prices": [0, 0.5],
+                        "isrequired": true
+                    },
+                    "option-2": {
+                        "name": "Drink",
+                        "type": 1,
+                        "choices": ["Coke", "Sprite", "NESTEA Iced Tea", "Fruitopia Orange"],
+                        "prices": [0, 0, 0, 0],
+                        "isrequired": true
+                    },
+                    "option-3": {
+                        "name": "Burger comes with",
+                        "type": 3,
+                        "choices": ["Chicken Patty", "Bacon Strips", "Mayo", "Lettuce", "Tomato"],
+                        "prices": [2.99, 1.59, 0.4, 0, 0.59],
+                        "initial": [1, 1, 1, 1, 1],
+                        "isrequired": false
+                    }
+                }
+            },
+            "chicken-3": {
+                "name": "Chicken Strips",
+                "price": 11.89,
+                "desc": "Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 1,
+                        "choices": ["Medium Fries", "Large Fries"],
+                        "prices": [0, 0.5],
+                        "isrequired": true
+                    },
+                    "option-2": {
+                        "name": "Drink",
+                        "type": 1,
+                        "choices": ["Coke", "Sprite", "NESTEA Iced Tea", "Fruitopia Orange"],
+                        "prices": [0, 0, 0, 0],
+                        "isrequired": true
+                    },
+                    "option-3": {
+                        "name": "Dipping Sauce",
+                        "type": 3,
+                        "choices": ["BBQ", "Honey Mustard", "Hot Mustard", "Sweet and Sour", "Ranch", "No Sauce"],
+                        "prices": [0, 0, 0, 0, 0, 0],
+                        "initial": [0, 0, 0, 0, 0, 0],
+                        "min": 2,
+                        "isrequired": true
+                    }
+                }
+            }
+        }
+    },
+    "breakfast": {
+        "name": "All Day Breakfast",
+        "desc": "Sed pellentesque pharetra condimentum. Donec leo mi, tincidunt ut rutrum sagittis, sodales quis elit. Integer consectetur nunc ut facilisis scelerisque.",
+        "menu": {
+            "breakfast-1": {
+                "name": "Egg Breakfast Sandwich",
+                "price": 5.29,
+                "desc": "Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.",
+                "options": {
+                    "option-1": {
+                        "name": "Sandwich comes with",
+                        "type": 3,
+                        "choices": ["Bacon Strips", "Mayo", "Cheese", "Egg", "Lettuce", "Tomato", "Butter"],
+                        "prices": [1.59, 0.40, 0.59, 1.80, 0, 0.59, 0],
+                        "initial": [1, 1, 1, 1, 1, 1, 1],
+                        "isrequired": false
+                    }
+                }
+            },
+            "breakfast-2": {
+                "name": "Pancakes",
+                "price": 5.59,
+                "desc": "Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi.",
+                "options": {
+                    "option-1": {
+                        "name": "Side item",
+                        "type": 2,
+                        "choices": ["Sausage", "Bacon Strips", "Hash Brown", "Egg", "Mushrooms"],
+                        "prices": [1.59, 1.59, 1.59, 1.80, 1.80],
+                        "min": 1,
+                        "max": 2,
+                        "isrequired": true
+                    }
+                }
+            }
+        }
+    },
+    "sides": {
+        "name": "Sides",
+        "desc": "Donec suscipit erat eu faucibus ullamcorper.",
+        "menu": {
+            "sides-1": {
+                "name": "Fries",
+                "price": 3.99,
+                "desc": "Nulla quam. Aenean laoreet.",
+                "options": {
+                    "option-1": {
+                        "name": "Size",
+                        "type": 1,
+                        "choices": ["Small", "Medium", "Large"],
+                        "prices": [0, 0.5, 0.8],
+                        "isrequired": true
+                    }
+                }
+            },
+            "sides-2": {
+                "name": "Apple Slices",
+                "price": 1.19,
+                "desc": "Proin ut ligula vel nunc egestas porttitor."
+            }
+        }
+    },
+    "drinks": {
+        "name": "Drinks",
+        "desc": "Curabitur nec vulputate risus. Aenean luctus tortor ac lacus maximus mattis.",
+        "menu": {
+            "drinks-1": {
+                "name": "Coke",
+                "price": 2.69,
+                "desc": "Class aptent taciti sociosqu ad litora.",
+                "options": {
+                    "option-1": {
+                        "name": "Size",
+                        "type": 1,
+                        "choices": ["Small", "Medium", "Large"],
+                        "prices": [0, 0.5, 0.8],
+                        "isrequired": true
+                    }
+                }
+            },
+            "drinks-2": {
+                "name": "Sprite",
+                "price": 2.69,
+                "desc": "Sed dignissim lacinia nunc.",
+                "options": {
+                    "option-1": {
+                        "name": "Size",
+                        "type": 1,
+                        "choices": ["Small", "Medium", "Large"],
+                        "prices": [0, 0.5, 0.8],
+                        "isrequired": true
+                    }
+                }
+            },
+            "drinks-3": {
+                "name": "NESTEA Iced Tea",
+                "price": 2.69,
+                "desc": "Praesent mauris.",
+                "options": {
+                    "option-1": {
+                        "name": "Size",
+                        "type": 1,
+                        "choices": ["Small", "Medium", "Large"],
+                        "prices": [0, 0.5, 0.8],
+                        "isrequired": true
+                    }
+                }
+            },
+            "drinks-4": {
+                "name": "Fruitopia Orange",
+                "price": 2.69,
+                "desc": "Praesent mauris.",
+                "options": {
+                    "option-1": {
+                        "name": "Size",
+                        "type": 1,
+                        "choices": ["Small", "Medium", "Large"],
+                        "prices": [0, 0.5, 0.8],
+                        "isrequired": true
+                    }
+                }
+            }
+        }
+    }
+}
